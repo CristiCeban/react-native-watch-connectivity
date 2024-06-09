@@ -1,7 +1,7 @@
 {
-  "name": "react-native-watch-connectivity",
-  "version": "1.1.0",
-  "description": "React Native library to enable communication with Apple Watch app",
+  "name": "react-native-watch-connectivity-expo",
+  "version": "1.1.1",
+  "description": "React Native library to enable communication with Apple Watch app, with expo support, forked from http://mtford.co.uk/react-native-watch-connectivity/",
   "main": "build/index.js",
   "files": [
     "plugin/build",
@@ -26,15 +26,20 @@
     {
       "name": "Mars Lan",
       "email": "mars@metaphor.io"
+    },
+    {
+      "name": "Ceban Cristian",
+      "email": "cebancristi4444@gmail.com"
     }
   ],
   "keywords": [
     "react-native",
     "ios",
     "watch",
-    "apple-watch"
+    "apple-watch",
+    "expo"
   ],
-  "homepage": "http://mtford.co.uk/react-native-watch-connectivity/",
+  "homepage": "https://github.com/CristiCeban/react-native-watch-connectivity/",
   "scripts": {
     "build": "mkdir -p ./build && cp ./lib/RNWatch.d.ts ./build/RNWatch.d.ts && expo-module build",
     "post-build": "cp ./lib/RNWatch.d.ts ./build/RNWatch.d.ts",
@@ -48,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mtford90/react-native-watch-connectivity.git"
+    "url": "https://github.com/CristiCeban/react-native-watch-connectivity/branches"
   },
   "peerDependencies": {
     "react": ">=15.1",
